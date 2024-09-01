@@ -1,0 +1,34 @@
+body{
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#a2d2ff, #EFB0C9,#C6A0F6, #a2d2ff);
+
+    color: white;
+    text-shadow: 0 0 1px black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container> img{
+    height: 200px;
+    border-radius: 5%;
+}
+.container>a{
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+}
+.container>h3{
+    margin-top: 30px;
+    margin-bottom: 2px;
+}
+.container> ul > li{
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+.container>.link{
+    margin-top: 10px;
+}
